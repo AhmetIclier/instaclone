@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body onload="render()">
+    <header class="navbar">
+        <div class="wrapper">
+            <div class="menubar">   
+                <div class="mainlogo">
+                    <img src="img/pngegg.png">
+                </div>
+                <div class="searchbar">
+                    <input type="text" placeholder="search" class="searchinput">
+                </div>
+                <nav id="main-menu">
+                    
+                        <span class="material-symbols-outlined">home</span>
+                    
+                        <span class="material-symbols-outlined">near_me</span>
+                    
+                        <span class="material-symbols-outlined">explore</span>
+                    
+                        <span class="material-symbols-outlined">favorite</span>
+
+                        <span><img class="userphoto" src="img/ahmet-avatar.jpg"></span>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="content-bg">
+        <div class="wrapper flexc">
+            <div id="post-area">
+
+            </div>
+            <div id="recommended-users" class="flexcol">
+                <div class="user-span">
+                    <img class="userImageRec" src="img/ahmet-avatar.jpg">
+                    <div class="userName">Ahmet Iclier</div>
+                </div>
+                <div class="user-span">
+                    <img class="userImageRec" src="img/14.jpg">
+                    <div class="user-description">
+                        <div class="userName">Developer Akademie</div>
+                        <div class="subtext">Diesen Nutzer könnten Sie kennen</div>
+                    </div>
+                </div>
+                <div class="user-span">
+                    <img class="userImageRec" src="img/1.jpg">
+                    <div class="user-description">
+                        <div class="userName">Max Mustermann</div>
+                        <div class="subtext">Basierend auf Ihren Interessen, könnte Ihnen dieses Profil gefallen.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
